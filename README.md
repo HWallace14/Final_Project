@@ -25,3 +25,5 @@ For this project we sought to answer the question of which brand of vehicle is t
 3. Hayden Wallace
 4. Ben Rilley
 
+Dashboard First Look
+https://public.tableau.com/app/profile/leighanna.stone.bradley/viz/UsedCarReporting/UsedCarReport#1

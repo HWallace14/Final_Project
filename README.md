@@ -16,7 +16,7 @@ For this project we sought to answer the question of which brand of vehicle is t
 - Python
 - Jupyter Notebook
 - PGAdmin
-- Amazon Web Services
+- Tableau
 
 ## Team Members
 

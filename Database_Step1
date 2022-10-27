@@ -1,0 +1,11 @@
+
+create table clean_data
+(id serial,
+price varchar,
+miles varchar,
+year varchar,
+make varchar,
+model varchar
+);
+
+SELECT * FROM clean_data;

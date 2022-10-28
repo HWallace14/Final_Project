@@ -16,6 +16,8 @@ Our first pass of the data found that there were two main types of used vehicles
 
 In order to begin our project we had to clean up some of the less relevant data. We removed the VIN numbers, transaction IDs and seller information from the dataframe, as well as any null values and obviously incorrect data such as miles/price being 0. Our dataset was too large to function properly on any normal computer as well, so we sampled early in order to spend more tiem honing our machine learning model and less time waiting for the jupyter notebook to run.
 
+
+
 ## Data Used
 
 https://www.kaggle.com/datasets/rupeshraundal/marketcheck-automotive-data-us-canada

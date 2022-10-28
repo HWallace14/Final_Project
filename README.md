@@ -4,19 +4,26 @@
 
 ### Overview
 
-For this project we sought to answer the question of which brand of vehicle is the most cost-effective to buy in its used form. Usually this question would be defined by mileage and price only, but with this project we hope to discover which other categories might lend themselves to a used car's value.
+For this project we sought to use machine learning to determine if there is a specific set of factors that determines a used vehicle's sale price.
 
-### Initial Observations
+## Initial Observations
+
+Our first pass of the data found that there were two main types of used vehicles; luxury cars and everyday vehicles. We decided to separate the two because they were so different that they were acting as outliers to one another.
 
 
 
+
+## Data Used
+
+https://www.kaggle.com/datasets/rupeshraundal/marketcheck-automotive-data-us-canada
 
 ## Programs Used
 
 - Python
 - Jupyter Notebook
 - PGAdmin
-- Amazon Web Services
+- Tableu
+- PostgreSQL
 
 ## Team Members
 

@@ -10,13 +10,13 @@ For this project we sought to use machine learning to determine if there is a sp
 
 Our first pass of the data found that there were two main types of used vehicles; luxury cars and everyday vehicles. We decided to separate the two because they were so different that they were acting as outliers to one another.
 
-## Results
-
 ### Data Cleaning
 
-In order to begin our project we had to clean up some of the less relevant data. We removed the VIN numbers, transaction IDs and seller information from the dataframe, as well as any null values and obviously incorrect data such as miles/price being 0. Our dataset was too large to function properly on any normal computer as well, so we sampled early in order to spend more tiem honing our machine learning model and less time waiting for the jupyter notebook to run.
+In order to begin our project we had to clean up some of the less relevant data. We removed the VIN numbers, transaction IDs and seller information from the dataframe, as well as any null values and obviously incorrect data such as miles/price being 0. Our dataset was too large to function properly on any normal computer as well, so we sampled early in order to spend more time honing our machine learning model and less time waiting for the jupyter notebook to run.
 
+## Results
 
+## Summary
 
 ## Data Used
 

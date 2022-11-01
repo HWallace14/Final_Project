@@ -27,7 +27,7 @@ https://www.kaggle.com/datasets/rupeshraundal/marketcheck-automotive-data-us-can
 - Python
 - Jupyter Notebook
 - PGAdmin
-- Tableu
+- Tableau
 - PostgreSQL
 
 
@@ -37,3 +37,7 @@ https://www.kaggle.com/datasets/rupeshraundal/marketcheck-automotive-data-us-can
 2. Leighanna Stone-Bradley
 3. Hayden Wallace
 4. Ben Rilley
+
+## Interactive Dashboard
+
+https://public.tableau.com/app/profile/leighanna.stone.bradley/viz/UsedCarAnalysis_16672614696670/UsedCarAnalysis

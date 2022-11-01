@@ -30,13 +30,16 @@ https://www.kaggle.com/datasets/rupeshraundal/marketcheck-automotive-data-us-can
 - Tableau
 - PostgreSQL
 
-
 ## Team Members
 
 1. Zak Armstrong
 2. Leighanna Stone-Bradley
 3. Hayden Wallace
 4. Ben Rilley
+
+## Communication Protocols
+
+
 
 ## Interactive Dashboard
 

@@ -4,7 +4,7 @@
 
 ### Overview
 
-For this project we sought to use machine learning to determine if there is a specific set of factors that determines a used vehicle's sale price. By determining this, we should be able to train an algorithm to spit out a price that is correct for each used car's data that we feed it. For example if we were to feed in a specific set of miles, trim level, condition and brand we should expect a price to be given that is fairly close to the price that the actual vehicle sold for. 
+For this project we sought to use machine learning to determine which features directly affect a used car's price. Primary features like mileage and year made are predicted to be primary determinants,but we believe that there should be other, secondary, factors as well. 
 
 ## Results
 

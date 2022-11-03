@@ -39,7 +39,7 @@ https://www.kaggle.com/datasets/rupeshraundal/marketcheck-automotive-data-us-can
 
 ## Communication Protocols
 
-
+The team primarily communicates with Slack for text-based communications. From there Zoom calls are scheduled for more real-time communication, with updated notes on github pushes filling in any remaining gaps.
 
 ## Interactive Dashboard
 

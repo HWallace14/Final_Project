@@ -44,3 +44,18 @@ The team primarily communicates with Slack for text-based communications. From t
 ## Interactive Dashboard
 
 https://public.tableau.com/app/profile/leighanna.stone.bradley/viz/UsedCarAnalysis_16672614696670/UsedCarAnalysis
+
+The interactive dashboard was made using Tableau Public and was published to the live site. A "story" was used in place of a traditional Tableau "dashboard" to include more graphics and increase the interactivity. Bar and scatter plots were used to showcase specific sections of the used car data, such as the selling price plotted against the mileage of the vehicles. The static graphs include a feature that allow the user to drill down on a specific data point by clicking it to reveal further information related the that specific data point. A detailed list view of all the data is also available with filters to view the data for vehicles with any combination of features. The final portion of the dashboard is a price estimator tool that allows the user to input as much or as little detail about their vehicle as they would like using the filters in order to calculate the average, median, minimum, and maximum price for similar vehicles. 
+
+Static view of the price estimator tool in its current form:
+
+![image](https://user-images.githubusercontent.com/107161421/199846538-99326eec-32f4-46a8-b64e-2d81b9985105.png)
+
+Static view of tables, bar, and scatter plots used to vizualize the data:
+
+![image](https://user-images.githubusercontent.com/107161421/199846783-3f76894a-de78-48ba-a936-d299aa084c95.png)
+
+Additional dashboard visualization resources:
+- https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40-%23AB35AB
+- https://thenode.biologists.com/data-visualization-with-flying-colors/research/
+

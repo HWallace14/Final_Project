@@ -4,17 +4,17 @@
 
 ### Overview
 
-For this project we sought to use machine learning to determine if there is a specific set of factors that determines a used vehicle's sale price. 
+For this project we sought to use machine learning to determine which features directly affect a used car's price. Primary features like mileage and year made are predicted to be primary determinants,but we believe that there should be other, secondary, factors as well. 
+
+## Results
 
 ### Initial Observations
 
-Our first pass of the data found that there were two main types of used vehicles; luxury cars and everyday vehicles. We decided to separate the two because they were so different that they were acting as outliers to one another.
+Our first pass of the data found that there were three main types of used vehicles; luxury, premium and regular. We decided to separate the three because they were so different that they were acting as outliers to one another. A regular vehicle tended to have more of a steep drop-off in price once the miles on it were increased, whereas premium and above tended to keep their value fairly well. Additionally, Ford vehicles seem to be in a separate class from other brands, with their vehicles maintaining a fairly high resale value.
 
 ### Data Cleaning
 
-In order to begin our project we had to clean up some of the less relevant data. We removed the VIN numbers, transaction IDs and seller information from the dataframe, as well as any null values and obviously incorrect data such as miles/price being 0. Our dataset was too large to function properly on any normal computer as well, so we sampled early in order to spend more time honing our machine learning model and less time waiting for the jupyter notebook to run.
-
-## Results
+In order to begin our project we had to clean up some of the less relevant data. We removed the VIN numbers, transaction IDs and seller information from the dataframe, as well as any null values and obviously incorrect data such as miles/price being 0. Our dataset was too large to function properly on any normal computer as well, so we sampled early in order to spend more time honing our machine learning model and less time waiting for the jupyter notebook to run. This improved performance dramatically and allowed for more time to code and review our models.
 
 ## Summary
 
@@ -30,13 +30,16 @@ https://www.kaggle.com/datasets/rupeshraundal/marketcheck-automotive-data-us-can
 - Tableau
 - PostgreSQL
 
-
 ## Team Members
 
 1. Zak Armstrong
 2. Leighanna Stone-Bradley
 3. Hayden Wallace
 4. Ben Rilley
+
+## Communication Protocols
+
+The team primarily communicates with Slack for text-based communications. From there Zoom calls are scheduled for more real-time communication, with updated notes on github pushes filling in any remaining gaps.
 
 ## Interactive Dashboard
 

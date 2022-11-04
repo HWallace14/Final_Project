@@ -59,3 +59,6 @@ Additional dashboard visualization resources:
 - https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40-%23AB35AB
 - https://thenode.biologists.com/data-visualization-with-flying-colors/research/
 
+## Google Slides Presentation
+
+https://docs.google.com/presentation/d/1kvQgmmn2aw33_R10Kkuhzmqoo_qRSu5ujKDMetT-lF0/edit?usp=sharing

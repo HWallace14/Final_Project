@@ -51,7 +51,7 @@ Next steps will include bringing in additional visualizations from the machine l
 
 Static view of the price estimator tool in its current form:
 
-![image](https://user-images.githubusercontent.com/107161421/199846538-99326eec-32f4-46a8-b64e-2d81b9985105.png)
+![image](https://user-images.githubusercontent.com/107161421/200711949-f5afcfbd-4b73-4934-b885-4cef483697f7.png)
 
 Static view of tables, bar, and scatter plots used to vizualize the data:
 

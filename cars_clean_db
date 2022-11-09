@@ -1,4 +1,0 @@
-select count(*) from cars_clean
-
-SELECT * FROM public.cars_clean
-LIMIT 100

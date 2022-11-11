@@ -11,7 +11,7 @@ FROM used_cars;
 SELECT "id", vin, price, miles, "year", make, model, "trim", body_type, vehicle_type, drivetrain, transmission, fuel_type, engine_size, engine_block
 INTO make_model
 FROM used_cars
-WHERE miles != '0.0';
+WHERE miles > 200;
 
 SELECT DISTINCT make FROM make_model;
 
@@ -39,7 +39,7 @@ OR make = 'Lamborghini'
 OR make = 'Mercedes-Benz'
 OR make = 'Land Rover'
 OR make = 'BMW'
-AND miles != '0.0'
+AND miles > 200
 ;
 
 SELECT *
@@ -66,5 +66,5 @@ AND make != 'Lamborghini'
 AND make != 'Mercedes-Benz'
 AND make != 'Land Rover'
 AND make != 'BMW'
-AND miles != '0.0'
+AND miles > 200
 ;

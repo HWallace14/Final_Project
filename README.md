@@ -18,7 +18,7 @@ In order to begin our project we had to clean up some of the less relevant data.
 
 ### Machine Learning
 
-View ml_README.md in notebooks folder https://github.com/HWallace14/Final_Project/blob/main/Notebooks/ml_README.md
+View ml_README.md in notebooks folder. https://github.com/HWallace14/Final_Project/blob/main/Notebooks/ml_README.md
 
 ## Summary
 

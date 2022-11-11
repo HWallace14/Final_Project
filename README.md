@@ -37,20 +37,19 @@ https://www.kaggle.com/datasets/rupeshraundal/marketcheck-automotive-data-us-can
 3. Hayden Wallace
 4. Ben Rilley
 
-## Communication Protocols
-
-The team primarily communicates with Slack for text-based communications. From there Zoom calls are scheduled for more real-time communication, with updated notes on github pushes filling in any remaining gaps.
-
 ## Interactive Dashboard
 
 https://public.tableau.com/app/profile/leighanna.stone.bradley/viz/UsedCarAnalysis_16672614696670/UsedCarAnalysis
 
-The interactive dashboard was made using Tableau Public and was published to the live site. A "story" was used in place of a traditional Tableau "dashboard" to include more graphics and increase the interactivity. Bar and scatter plots were used to showcase specific sections of the used car data, such as the selling price plotted against the mileage of the vehicles. The static graphs include a feature that allow the user to drill down on a specific data point by clicking it to reveal further information related the that specific data point. A detailed list view of all the data is also available with filters to view the data for vehicles with any combination of features. The final portion of the dashboard is a price estimator tool that allows the user to input as much or as little detail about their vehicle as they would like using the filters in order to calculate the average, median, minimum, and maximum price for similar vehicles. 
+The interactive dashboard was made using Tableau Public and was published to the live site. A "story" was used in place of a traditional Tableau "dashboard" to include more graphics and increase the interactivity.  Bar and scatter plots were used to showcase specific sections of the used car data, such as the selling price plotted against the mileage of the vehicles. The static graphs include a feature that allow the user to drill down on a specific data point by clicking it to reveal further information related the that specific data point. A detailed list view of all the data is also available with filters to view the data for vehicles with any combination of features. The final portion of the dashboard is a price estimator tool that allows the user to input as much or as little detail about their vehicle as they would like using the filters in order to calculate the average, median, minimum, and maximum price for similar vehicles. 
 
 Static view of the price estimator tool:
 
 ![image](https://user-images.githubusercontent.com/107161421/200711949-f5afcfbd-4b73-4934-b885-4cef483697f7.png)
 
+The findings from the machine learning analysis were pulled in to the dashboard to help visualize the features that were found to be most significant in determining pricing for used vehicles:
+
+![image](https://user-images.githubusercontent.com/107161421/201235136-0e3d4742-6ed3-4222-883c-9d4ddd951c1a.png)
 
 Additional dashboard visualization resources:
 - https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40-%23AB35AB

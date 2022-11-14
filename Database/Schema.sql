@@ -1,6 +1,6 @@
 CREATE TABLE Used_Cars (
 	" " INT NOT NULL,
-    "id" VARCHAR NOT NULL,
+    "id" VARCHAR NOT NULL PRIMARY KEY,
     vin VARCHAR NOT NULL,
 	price FLOAT NOT NULL,
 	miles FLOAT NOT NULL,
@@ -20,10 +20,6 @@ CREATE TABLE Used_Cars (
 	street VARCHAR NOT NULL,
 	city VARCHAR NOT NULL,
 	"state" VARCHAR NOT NULL,
-	zip VARCHAR NOT NULL,
-	PRIMARY KEY ("id")
-);
+	zip VARCHAR NOT NULL)
+	;
 
-SELECT * FROM Used_Cars;
-
-DROP TABLE Used_Cars CASCADE;

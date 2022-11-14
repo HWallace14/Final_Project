@@ -1,8 +1,8 @@
-SELECT * FROM used_cars
-LIMIT 100;
-
 ALTER TABLE used_cars
-DROP COLUMN " ";
+RENAME COLUMN " " TO index;
+	
+ALTER TABLE used_cars
+ADD UNIQUE ("index");
 
 SELECT "id",seller_name, street, city, "state", zip
 INTO seller_info
@@ -68,3 +68,54 @@ AND make != 'Land Rover'
 AND make != 'BMW'
 AND miles > 200
 ;
+
+ALTER TABLE make_model
+ADD CONSTRAINT fk_make_model
+FOREIGN KEY ("id")
+REFERENCES "used_cars" ("id");
+
+ALTER TABLE used_cars
+ADD CONSTRAINT fk_used_cars
+FOREIGN KEY ("id")
+REFERENCES "used_cars" ("id");
+
+ALTER TABLE seller_info
+ADD CONSTRAINT fk_seller_info
+FOREIGN KEY ("id")
+REFERENCES "used_cars" ("id") ;
+
+ALTER TABLE regular_makes
+ADD CONSTRAINT fk_regular_makes
+FOREIGN KEY ("id")
+REFERENCES "used_cars" ("id") ;
+
+ALTER TABLE luxury_makes
+ADD CONSTRAINT fk_luxury_makes
+FOREIGN KEY ("id")
+REFERENCES "used_cars" ("id") ;
+
+SELECT luxury_sample.index, used_cars.id, used_cars.vin, used_cars.price, luxury_sample.miles, luxury_sample.year, luxury_sample.make, luxury_sample.model, luxury_sample.trim, used_cars.body_type, luxury_sample.transmission, used_cars.vehicle_type, used_cars.drivetrain, used_cars.fuel_type, used_cars.engine_size, used_cars.engine_block, used_cars.seller_name, used_cars.street, used_cars.city, used_cars.state, used_cars.zip 
+INTO luxury_sample_full
+FROM luxury_sample
+JOIN used_cars ON luxury_sample.index = used_cars.index
+;
+
+SELECT regular_sample.index, used_cars.id, used_cars.vin, used_cars.price, regular_sample.miles, regular_sample.year, regular_sample.make, regular_sample.model, regular_sample.trim, used_cars.body_type, regular_sample.transmission, used_cars.vehicle_type, used_cars.drivetrain, used_cars.fuel_type, used_cars.engine_size, used_cars.engine_block, used_cars.seller_name, used_cars.street, used_cars.city, used_cars.state, used_cars.zip 
+INTO regular_sample_full
+FROM regular_sample
+JOIN used_cars ON regular_sample.index = used_cars.index
+;
+
+SELECT make_sample.index, used_cars.id, used_cars.vin, used_cars.price, make_sample.miles, make_sample.year, make_sample.make, make_sample.model, make_sample.trim, used_cars.body_type, used_cars.transmission, used_cars.vehicle_type, used_cars.drivetrain, used_cars.fuel_type, used_cars.engine_size, used_cars.engine_block, used_cars.seller_name, used_cars.street, used_cars.city, used_cars.state, used_cars.zip 
+INTO make_sample_full
+FROM make_sample
+JOIN used_cars ON make_sample.index = used_cars.index
+;
+
+
+
+
+
+
+
+

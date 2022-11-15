@@ -10,7 +10,7 @@ For this project we sought to use machine learning to determine which features d
 
 ### Initial Observations
 
-Our first pass of the data found that there were three main types of used vehicles; luxury, premium and regular. We decided to separate the three because they were so different that they were acting as outliers to one another. A regular vehicle tended to have more of a steep drop-off in price once the miles on it were increased, whereas premium and above tended to keep their value fairly well. Additionally, Ford vehicles seem to be in a separate class from other brands, with their vehicles maintaining a fairly high resale value.
+Our first pass of the data found that there were two main types of used vehicles; luxury and regular. We decided to separate them because they were so different that they were acting as outliers to one another. A regular vehicle tended to have more of a steep drop-off in price once the miles on it were increased, whereas luxury tended to keep their value fairly well. Additionally, Ford vehicles seem to be in a separate class from other brands, with their vehicles maintaining a fairly high resale value.
 
 ### Data Cleaning
 

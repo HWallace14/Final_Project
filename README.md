@@ -26,12 +26,14 @@ View ml_README.md in notebooks folder. https://github.com/HWallace14/Final_Proje
 
 https://www.kaggle.com/datasets/rupeshraundal/marketcheck-automotive-data-us-canada
 
+Our data set was sourced from Kaggle and includes 8 years (2012-2020) worth used vehicle inventory data from MarketCheck. The inventory data includes the vehicles' make, model, year, mileage, and several other features. 
+
 ## Programs Used
 
 - Python
 - Jupyter Notebook
 - PGAdmin
-- Tableau
+- Tableau Public
 - PostgreSQL
 
 ## Team Members

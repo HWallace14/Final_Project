@@ -25,7 +25,7 @@ After cleaning up our data, we ran the data through a Balanced Random Forest Cla
 
 https://www.kaggle.com/datasets/rupeshraundal/marketcheck-automotive-data-us-canada
 
-Our data set was sourced from Kaggle and includes 8 years (2012-2020) worth used vehicle inventory data from MarketCheck. The inventory data includes the vehicles' make, model, year, mileage, and several other features. 
+Our data set was sourced from Kaggle and includes the last 8 years worth of used vehicle inventory data from MarketCheck. The inventory data includes the vehicles' make, model, year, mileage, and several other features. 
 
 ## Programs Used
 
@@ -40,7 +40,6 @@ Our data set was sourced from Kaggle and includes 8 years (2012-2020) worth used
 1. Zak Armstrong
 2. Leighanna Stone-Bradley
 3. Hayden Wallace
-4. Ben Rilley
 
 ## Interactive Dashboard
 

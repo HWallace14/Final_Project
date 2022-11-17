@@ -14,7 +14,8 @@ Our first pass of the data found that there were two main types of used vehicles
 
 ### Data Cleaning
 
-In order to begin our project we had to clean up some of the less relevant data. We removed the VIN numbers, transaction IDs and seller information from the dataframe, as well as any null values and obviously incorrect data such as miles/price being 0. Our dataset was too large to function properly on any normal computer as well, so we sampled early in order to spend more time honing our machine learning model and less time waiting for the jupyter notebook to run. This improved performance dramatically and allowed for more time to code and review our models.
+In order to begin our project we had to clean up some of the less relevant data. The data was read into jupyter notebook where any null values were removed. This lightly cleaned data was then fed to pgAdmin to start out database. We used pgAdmin and Postgresql to further clean up the data, create more focused tables, and create specific CSV files to analyze. We removed the VIN numbers, transaction IDs and seller information from the dataframe, as well as any null values and obviously incorrect data such as miles/price being 0. Our dataset was too large to function properly on any normal computer as well, so we sampled early in order to spend more time honing our machine learning model and less time waiting for the jupyter notebook to run. This improved performance dramatically and allowed for more time to code and review our models.
+
 
 ### Machine Learning
 

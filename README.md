@@ -25,9 +25,16 @@ After cleaning up our data, we ran the data through a Balanced Random Forest Cla
 
 https://www.kaggle.com/datasets/rupeshraundal/marketcheck-automotive-data-us-canada
 
-Our data set was sourced from Kaggle and includes the last 8 years worth of used vehicle inventory data from MarketCheck. The inventory data includes the vehicles' make, model, year, mileage, and several other features. 
+Our data set was sourced from Kaggle and includes the last 8 years worth of used vehicle inventory data from MarketCheck. The inventory data includes the vehicles' make, model, year, mileage, and several other features. We believed this dataset would be ideal for this analysis as it included over 6 million rows and 22 columns of data. 
 
-## Programs Used
+## Future Analysis
+
+If the project were to continue we would recommend creating four more tables that relate more to the 4 clusters our K-means found previously. If we could find the core markets that the automotive industry serves then we could create a different classifier for each one and find out what each market values based on the price of each make/model/feature. We would also recommend cutting the outliers out of our data using our current tables/dataset and see if the resulting graphs revealed something more than what we currently can see.
+
+In future analysis or if we were to redo the project we would dig into the geographic data to find if price influencers vary based on location as well as the pricing differences between different geographic locations. 
+
+
+## Tools and Languages Used
 
 - Python
 - Jupyter Notebook
